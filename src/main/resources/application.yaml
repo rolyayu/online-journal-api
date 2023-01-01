@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: linuxoid
+    password: password
+    name: journal
+    url: jdbc:postgresql://localhost:5432/journal
+  jpa:
+    hibernate:
+      ddl-auto: update
+
